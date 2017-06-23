@@ -4,6 +4,7 @@ public class Login {
 	
 	private String usuario;
 	private String senha;
+	
 	public String getUsuario() {
 		return usuario;
 	}
@@ -21,7 +22,7 @@ public class Login {
 	}
 	
 	public Login(String usuario, String senha) {
-		super();
+		
 		this.usuario = usuario;
 		this.senha = senha;
 	}
