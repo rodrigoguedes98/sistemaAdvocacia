@@ -1,4 +1,4 @@
-package br.ufrpe.advocacia.controllers;
+package br.ufrpe.advocacia.controller;
 
 public class AdvogadoController {
 

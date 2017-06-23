@@ -1,5 +1,4 @@
 package Main;
-
 import br.urfpe.advocacia.beans.Advogado;
 import br.urfpe.advocacia.beans.Login;
 
@@ -12,9 +11,6 @@ public class Main {
 	teste.setCpf("06502419");
 	teste.setNome("Lucas");
 	teste.setLogin(new Login("lucas","23142"));
-	
-
-	
 	
 	System.out.println(teste);
 	
