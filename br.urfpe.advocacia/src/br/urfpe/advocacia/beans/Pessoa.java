@@ -27,7 +27,8 @@ public class Pessoa {
 	
 	public Pessoa()
 	{
-		this(null, null, null);
+		//esses null tao bugando o teste
+		//this(null, null, null);
 		
 	}
 

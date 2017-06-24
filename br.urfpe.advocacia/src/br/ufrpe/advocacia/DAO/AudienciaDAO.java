@@ -6,18 +6,49 @@ import br.urfpe.advocacia.beans.Audiencia;
 
 public class AudienciaDAO {
 
-	ArrayList<Audiencia> audiencia = new ArrayList();
+	ArrayList<Audiencia> audiencias = new ArrayList<>();
 	
 	public boolean procurarAudiencia(long id){
-		return true;
+		
+		boolean resultado = true;
+		
+		for(int i=0; i<audiencias.size();i++){
+			if(id == audiencias.get(i).getId()){
+			resultado =  true;
+			}else{
+			resultado =  false;	
+			}
+		}
+		return resultado;
+		
 	}
 	public boolean alterarAudiencia(long id){
-		return true;
+boolean resultado = true;
+		
+		for(int i=0; i<audiencias.size();i++){
+			if(id == audiencias.get(i).getId()){
+			resultado =  true;
+			}else{
+			resultado =  false;	
+			}
+		}
+		return resultado;
+		
 	}
 	public boolean deletarAudiencia(long id){
-		return true;
-	}
-	public void cadastrarAudiencia(){
+boolean resultado = true;
 		
+		for(int i=0; i<audiencias.size();i++){
+			if(id == audiencias.get(i).getId()){
+			resultado =  true;
+			}else{
+			resultado =  false;	
+			}
+		}
+		return resultado;
+		
+	}
+	public void cadastrarAudiencia(Audiencia audiencia){
+		audiencias.add(audiencia);
 	}
 }

@@ -28,7 +28,8 @@ public class Advogado extends Pessoa {
 	}
 	
 	public String toString(){
-		return "advogado" + getNome() + getCpf() + getDataNascimento() + "Login" + getLogin();
+		return "Advogado " + getNome() + " CPF " + getCpf() +  
+				" Data " + getDataNascimento() + " Login " + getLogin();
 	}
 
 }

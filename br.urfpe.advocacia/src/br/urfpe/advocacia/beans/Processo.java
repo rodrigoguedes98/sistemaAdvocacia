@@ -8,6 +8,8 @@ public class Processo {
 	
 	private Pessoa cliente;
 	private String descrição;
+	
+	//porque tem esse arraylist? 
 	private ArrayList<Audiencia> audiencia;
 	private long id;
 	
